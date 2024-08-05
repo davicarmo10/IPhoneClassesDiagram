@@ -26,7 +26,7 @@ This class diagram represents an abstraction of an iPhone's functionalities thro
    - **Attributes**:
  
    - **Methods**:
-     - `search()`: Search a website.
+     - `search()`: Search a website and return a bool.
      
 #### Subclasses
 
