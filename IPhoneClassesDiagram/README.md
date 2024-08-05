@@ -14,7 +14,7 @@ This class diagram represents an abstraction of an iPhone's functionalities thro
      - `playSong()`: Plays a song.
      - `pause()`: Pauses the song.
      - `fowardSong()`: Foward to next song.
-     - `returnSong()`: Return to the previous song.
+     - `previousSong()`: Return to the previous song.
 2. **Telephone**
    - **Attributes**:
      
