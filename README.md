@@ -49,4 +49,6 @@ This class diagram represents an abstraction of an iPhone's functionalities thro
     - `openApp(itunes)`: Open the app ITunes.
     - `openApp(telephone)`: Open the app Telephone.
     - `openApp(safari)`: Open the app Safari.
+
+    ![alt text](image.png)
      
