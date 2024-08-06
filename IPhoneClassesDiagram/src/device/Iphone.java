@@ -1,31 +1,31 @@
 package device;
 
-import secondaryClasses.Itunes;
-import secondaryClasses.Telephone;
-import secondaryClasses.Safari;
+import media.Itunes;
+import navigation.Safari;
+import telephony.Telephone;
 
 public class Iphone {
-    private Itunes itunes;
-    private Telephone telephone;
-    private Safari safari;
-
-    public Iphone() {
-        this.itunes = new Itunes();
-        this.telephone = new Telephone();
-        this.safari = new Safari();
+    public static void main(String[] args) {
+        Itunes itunes = new Itunes();
+        Safari safari = new Safari();
+        Telephone telephone = new Telephone();
+        
+        openItunes(itunes);
+        openSafari(safari);
+        openTelephone(telephone);
     }
 
-    // MusicPlayer methods
-    public void openItunes(String songName) {
-        itunes.playSong();
+   
+    public static void openItunes(Itunes app) {
+        app.playSong();
+        app.openVideoClip();
     }
 
-    public void openSafari() {
-        safari.searchInIncogniteMode();
+    public static void openSafari(Safari safari) {
+        safari.search();
     }
 
-    public void openTelephone() {
+    public static void openTelephone(Telephone telephone) {
         telephone.call();
     }
 }
-
